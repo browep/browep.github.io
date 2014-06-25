@@ -1,5 +1,29 @@
 - name: Weight Watchers Mobile
   url: https://play.google.com/store/apps/details?id=com.weightwatchers.mobile
+  role_short: Design and Development
+  description: Used by more than 1 million Weight Watchers subscribers to log "points" and weight.
+  role_expanded: Senior Developer, Android architecture design, UI implementation, web services handling, local storage, full Android stack.
 
 - name: ITTTech Intellicourse
   url: https://play.google.com/store/apps/details?id=com.mobiquityinc.itttech
+  role_short: Design and Development
+  description: Used internally in ITTTech as a courseware app for students and instructors
+  role_expanded: Android Architect, design, implementation on entire Android stack.
+
+- name: New York Post for Tablet 
+  url: https://play.google.com/store/apps/details?id=com.nypost.tablet
+  role_short: Design and Development
+  description: Tablet reader for NY Post newspaper. Rich content pulled from server.
+  role_expanded: Developer. Worked with team to design, implement, a rich content paging UI, local storage, web services backend, billing implementation.
+
+- name: Medavie Blue Cross Mobile
+  url: http://www.mun.ca/humanres/foremployees/Medavie_Blue_Cross_Mobile_-.pdf
+  role_short: Design and Development
+  description: Submit health claims, find providers, see coverage, access credentials.
+  role_expanded: Lead Android Developer. Participated in design, architecture, development, deployment, maintenance. Oversaw 1-3 developers
+
+- name: ABQBitcoins Mobile
+  url: https://play.google.com/store/apps/details?id=com.abqbitcoins
+  role_short: Sole developer, designer, architect.
+  description: A simple information app, designed, implemented by myself. The app allows those wishing to trade bitcoins in Albuquerque to contact a local merchant. 
+  role_expanded: 
