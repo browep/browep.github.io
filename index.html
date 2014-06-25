@@ -5,12 +5,11 @@ layout: default
 
 <div class="home">
 	{% for project in site.data.projects %}
-	<div>
-		
-	<p><a class="project-name" href="{{project.url}}">{{ project.name }}</a><p>
-	<p class="role-short">{{project.role_short}}</p>
-	<p class="description"> {{project.description}}</p>
-	<p class="role-expanded">{{project.role_expanded}}</p>
-</div>
+	<div class="project-container">
+		<h2 class="project-name"><a href="{{project.url}}">{{ project.name }}</a><h2>
+		<p class="role-short">{{project.role_short}}</p>
+		<p class="description"> {{project.description}}</p>
+		<p class="role-expanded">{{project.role_expanded}}</p>
+	</div>
 	{% endfor %}
 </div>

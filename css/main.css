@@ -402,4 +402,19 @@ a:visited { color: #205caa; }
     width: auto;
     margin: 0 0 15px; }
 
+
+
 }
+
+.project-container {
+  margin-top: 30px;
+}
+
+.project-name {
+    font-size: 30px;
+  }
+
+  .role-short {
+    font-style: italic;
+    color: #999999;
+  }
