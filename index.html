@@ -6,10 +6,12 @@ layout: default
 <div class="home">
 	{% for project in site.data.projects %}
 	<div class="project-container">
+		<img class="project-image" src="/assets/{{project.image}}">
 		<h2 class="project-name"><a href="{{project.url}}">{{ project.name }}</a><h2>
 		<p class="role-short">{{project.role_short}}</p>
 		<p class="description"> {{project.description}}</p>
 		<p class="role-expanded">{{project.role_expanded}}</p>
+
 	</div>
 	{% endfor %}
 </div>

@@ -406,8 +406,18 @@ a:visited { color: #205caa; }
 
 }
 
+.role-expanded {
+  font-style: italic;
+
+}
+
 .project-container {
-  margin-top: 30px;
+  margin-top: 45px;
+  display: block;
+  float: right;
+  width: 800px;
+  border: 1px #AAAAAA solid;
+  padding: 10px;
 }
 
 .project-name {
@@ -417,4 +427,10 @@ a:visited { color: #205caa; }
   .role-short {
     font-style: italic;
     color: #999999;
+  }
+
+  .project-image {
+    float: right;
+    max-height: 350px;
+    max-width: 300px;
   }
